@@ -13,6 +13,7 @@ def crew
 end
 
 def greet_crew(crew)
+<<<<<<< HEAD
   array = []
   crew.each do |crew_member| 
     array << "Hello #{crew_member}."
@@ -20,6 +21,12 @@ def greet_crew(crew)
   array
 end
 # binding.pry
+=======
+  crew.each do |crew_member| 
+    "Hello #{crew_member}."
+end
+binding.pry
+>>>>>>> 12c8b37daf94cab7daa579a42f7e61b27787964d
 def engage
   date = generate_star_date
   state_log(date)
